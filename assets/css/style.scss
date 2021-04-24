@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header.frame_head {
+    background-color: purple;
+    height: 300px;
+    padding: 20px;
+    border-radius: 0px 0px 35px 35px;
+    nav.frame_nav {
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-between !important;
+        }
+
+        li{
+            display: flex;
+            color: #fff;
+
+            a{
+                color: #fff;
+
+                svg{
+                    font-size: 24px;
+                }
+            }
+        }
+
+        li:last-child{
+            transform: rotate(90deg);
+        }
+
+
+    }
+}
+
+.navbar {
+    display: inherit !important;
+    box-shadow: 0 0 0 0 rgb(0 0 0 / 5%);
+}
+
+div.frame_sub_card{
+    text-align: center;
+    color: #000;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 50px 20px 50px 30px rgb(8 5 8 / 10%);
+
+    p.h4{
+        margin-bottom: 20px;
+    }
+
+    p.h5{
+        margin-bottom: 40px;
+    }
+    nav {
+        ul {
+            list-style: none;
+            display: flex;
+            padding-left: 0% !important;
+            justify-content: space-between !important;
+        }
+
+        li {
+            display: flex;
+            color: #fff;
+
+            a {
+                color: #fff;
+
+                img{
+                    width: 150px;
+                    height: 150px;
+                }
+
+                svg {
+                    font-size: 24px;
+                }
+            }
+
+            span.badge{
+                border-radius: 20px;
+                width: 50px;
+            }
+
+            span.badge-success{
+                background-color: green;
+            }
+
+            span.badge-danger{
+                background-color: red;
+            }
+        }
+    }
+}
+
+div.frame_form{
+    margin-top: 250px;
+    margin-bottom: 50px
+    ;
+
+    form{
+        width: 80%;
+        margin: auto;
+
+        div.form-group{
+            margin-bottom: 20px;
+        }
+
+        .btn-purple{
+            background-color: purple;
+            color: #fff;
+        }
+    }
+}

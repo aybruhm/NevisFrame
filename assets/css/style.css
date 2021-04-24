@@ -1,0 +1,96 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+header.frame_head {
+  background-color: purple;
+  height: 300px;
+  padding: 20px;
+  border-radius: 0px 0px 35px 35px;
+}
+header.frame_head nav.frame_nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between !important;
+}
+header.frame_head nav.frame_nav li {
+  display: flex;
+  color: #fff;
+}
+header.frame_head nav.frame_nav li a {
+  color: #fff;
+}
+header.frame_head nav.frame_nav li a svg {
+  font-size: 24px;
+}
+header.frame_head nav.frame_nav li:last-child {
+  transform: rotate(90deg);
+}
+
+.navbar {
+  display: inherit !important;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.05);
+}
+
+div.frame_sub_card {
+  text-align: center;
+  color: #000;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  box-shadow: 50px 20px 50px 30px rgba(8, 5, 8, 0.1);
+}
+div.frame_sub_card p.h4 {
+  margin-bottom: 20px;
+}
+div.frame_sub_card p.h5 {
+  margin-bottom: 40px;
+}
+div.frame_sub_card nav ul {
+  list-style: none;
+  display: flex;
+  padding-left: 0% !important;
+  justify-content: space-between !important;
+}
+div.frame_sub_card nav li {
+  display: flex;
+  color: #fff;
+}
+div.frame_sub_card nav li a {
+  color: #fff;
+}
+div.frame_sub_card nav li a img {
+  width: 150px;
+  height: 150px;
+}
+div.frame_sub_card nav li a svg {
+  font-size: 24px;
+}
+div.frame_sub_card nav li span.badge {
+  border-radius: 20px;
+  width: 50px;
+}
+div.frame_sub_card nav li span.badge-success {
+  background-color: green;
+}
+div.frame_sub_card nav li span.badge-danger {
+  background-color: red;
+}
+
+div.frame_form {
+  margin-top: 250px;
+  margin-bottom: 50px;
+}
+div.frame_form form {
+  width: 80%;
+  margin: auto;
+}
+div.frame_form form div.form-group {
+  margin-bottom: 20px;
+}
+div.frame_form form .btn-purple {
+  background-color: purple;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
