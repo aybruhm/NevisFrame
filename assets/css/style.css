@@ -43,7 +43,7 @@ header.frame_head nav.frame_nav li:last-child {
 div.frame_sub_card {
   text-align: center;
   color: #000;
-  margin-top: 60px;
+  margin-top: 10px;
   border-radius: 20px;
   box-shadow: 50px 20px 50px 30px rgba(8, 5, 8, 0.1);
 }
@@ -83,7 +83,6 @@ div.frame_sub_card ul li span.badge-danger {
 
 img.me-img {
   width: 100px;
-  position: absolute;
   top: -60px;
   right: 10px;
   left: 80px;
@@ -101,6 +100,10 @@ div.frame_form form {
 div.frame_form form div.form-group {
   margin-bottom: 20px;
 }
+div.frame_form form p.alert {
+  font-size: 16px;
+  font-weight: 600;
+}
 div.frame_form form .btn-purple {
   background-color: purple;
   color: #fff;
@@ -108,4 +111,10 @@ div.frame_form form .btn-purple {
 }
 div.frame_form form button .btn.btn-purple:hover {
   font-weight: 600;
+}
+
+@media screen and (max-width: 350px) {
+  div.frame_sub_head {
+    margin-bottom: 150px !important;
+  }
 }/*# sourceMappingURL=style.css.map */

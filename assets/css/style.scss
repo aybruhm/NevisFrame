@@ -53,8 +53,7 @@ header.frame_head {
 div.frame_sub_card{
     text-align: center;
     color: #000;
-    margin-top: 60px;
-    // margin-bottom: 50px;
+    margin-top: 10px;
     border-radius: 20px;
     box-shadow: 50px 20px 50px 30px rgb(8 5 8 / 10%);
 
@@ -103,7 +102,6 @@ div.frame_sub_card{
 
 img.me-img {
     width: 100px;
-    position: absolute;
     top: -60px;
     right: 10px;
     left: 80px;
@@ -121,6 +119,11 @@ div.frame_form{
         div.form-group{
             margin-bottom: 20px;
         }
+        
+        p.alert{
+            font-size: 16px;
+            font-weight: 600;
+        }
 
         .btn-purple{
             background-color: purple;
@@ -133,5 +136,11 @@ div.frame_form{
                 font-weight: 600;
             }
         }
+    }
+}
+
+@media screen and (max-width: 350px) {
+    div.frame_sub_head{
+        margin-bottom: 150px !important;
     }
 }
