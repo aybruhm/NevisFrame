@@ -1,7 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap");
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro";
+  font-weight: 300;
 }
 
 header.frame_head {
@@ -37,50 +43,55 @@ header.frame_head nav.frame_nav li:last-child {
 div.frame_sub_card {
   text-align: center;
   color: #000;
-  margin-top: 40px;
-  margin-bottom: 50px;
+  margin-top: 60px;
   border-radius: 20px;
   box-shadow: 50px 20px 50px 30px rgba(8, 5, 8, 0.1);
 }
 div.frame_sub_card p.h4 {
   margin-bottom: 20px;
+  font-weight: 600;
 }
 div.frame_sub_card p.h5 {
   margin-bottom: 40px;
+  font-size: 18px;
 }
-div.frame_sub_card nav ul {
+div.frame_sub_card ul {
   list-style: none;
   display: flex;
   padding-left: 0% !important;
   justify-content: space-between !important;
 }
-div.frame_sub_card nav li {
-  display: flex;
+div.frame_sub_card ul li {
   color: #fff;
 }
-div.frame_sub_card nav li a {
+div.frame_sub_card ul li a {
   color: #fff;
 }
-div.frame_sub_card nav li a img {
-  width: 150px;
-  height: 150px;
-}
-div.frame_sub_card nav li a svg {
+div.frame_sub_card ul li a svg {
   font-size: 24px;
 }
-div.frame_sub_card nav li span.badge {
+div.frame_sub_card ul li span.badge {
   border-radius: 20px;
   width: 50px;
 }
-div.frame_sub_card nav li span.badge-success {
+div.frame_sub_card ul li span.badge-success {
   background-color: green;
 }
-div.frame_sub_card nav li span.badge-danger {
+div.frame_sub_card ul li span.badge-danger {
   background-color: red;
 }
 
+img.me-img {
+  width: 100px;
+  position: absolute;
+  top: -60px;
+  right: 10px;
+  left: 80px;
+  height: 100px;
+}
+
 div.frame_form {
-  margin-top: 250px;
+  margin-top: 150px;
   margin-bottom: 50px;
 }
 div.frame_form form {
@@ -93,4 +104,8 @@ div.frame_form form div.form-group {
 div.frame_form form .btn-purple {
   background-color: purple;
   color: #fff;
+  font-size: 14px;
+}
+div.frame_form form button .btn.btn-purple:hover {
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */

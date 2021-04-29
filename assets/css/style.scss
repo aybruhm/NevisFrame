@@ -4,11 +4,19 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
+
+body {
+    font-family: 'Source Sans Pro';
+    font-weight: 300;
+}
+
 header.frame_head {
     background-color: purple;
     height: 300px;
     padding: 20px;
     border-radius: 0px 0px 35px 35px;
+
     nav.frame_nav {
         ul{
             list-style: none;
@@ -45,63 +53,66 @@ header.frame_head {
 div.frame_sub_card{
     text-align: center;
     color: #000;
-    margin-top: 40px;
-    margin-bottom: 50px;
+    margin-top: 60px;
+    // margin-bottom: 50px;
     border-radius: 20px;
     box-shadow: 50px 20px 50px 30px rgb(8 5 8 / 10%);
 
     p.h4{
         margin-bottom: 20px;
+        font-weight: 600;
     }
 
     p.h5{
         margin-bottom: 40px;
+        font-size: 18px;
     }
-    nav {
-        ul {
-            list-style: none;
-            display: flex;
-            padding-left: 0% !important;
-            justify-content: space-between !important;
-        }
+
+    ul {
+        list-style: none;
+        display: flex;
+        padding-left: 0% !important;
+        justify-content: space-between !important;
 
         li {
-            display: flex;
             color: #fff;
 
             a {
                 color: #fff;
-
-                img{
-                    width: 150px;
-                    height: 150px;
-                }
 
                 svg {
                     font-size: 24px;
                 }
             }
 
-            span.badge{
+            span.badge {
                 border-radius: 20px;
                 width: 50px;
             }
 
-            span.badge-success{
+            span.badge-success {
                 background-color: green;
             }
 
-            span.badge-danger{
+            span.badge-danger {
                 background-color: red;
             }
         }
     }
 }
 
+img.me-img {
+    width: 100px;
+    position: absolute;
+    top: -60px;
+    right: 10px;
+    left: 80px;
+    height: 100px;
+}
+
 div.frame_form{
-    margin-top: 250px;
-    margin-bottom: 50px
-    ;
+    margin-top: 150px;
+    margin-bottom: 50px;
 
     form{
         width: 80%;
@@ -114,6 +125,13 @@ div.frame_form{
         .btn-purple{
             background-color: purple;
             color: #fff;
+            font-size: 14px;
+        }
+
+        button{
+            .btn.btn-purple:hover {
+                font-weight: 600;
+            }
         }
     }
 }
