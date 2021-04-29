@@ -30,7 +30,6 @@
             <div class="frame_sub_head">
                 <div class="container">
                     <div class="frame_sub_card card">
-                        <img src="assets/img/me.jpg" alt="" class="me-img rounded-circle">
 
                         <ul class="mt-2 mt-lg-0 d-flex justify-content-between">
                             <li class="nav-item">
@@ -39,6 +38,10 @@
                                         hello
                                     </span>
                                 </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <img src="assets/img/me.jpg" alt="" class="me-img rounded-circle">
                             </li>
                             
                             <li class="nav-item">
@@ -64,7 +67,15 @@
 
         <div class="frame_form">
             <div class="container-fluid">
-                <form action="">
+                <form action="" class="needs-validation" id="frameForm">
+                    <div class="form-group">
+                        <p class="alert alert-danger d-none" id="alertForm">
+                            You can't submit empty values! ;-;
+                        </p>
+                        <p class="alert alert-success d-none" id="goForm">
+                            Yayyyy! You're ready to go! :-)
+                        </p>
+                    </div>
                     <div class="form-group">
                         <input type="text"
                             class="form-control" name="first_name" id="firstName" aria-describedby="helpId" placeholder="First Name">
@@ -89,5 +100,6 @@
     </section>
 
     <script src="assets/js/mdb.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
